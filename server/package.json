@@ -1,0 +1,19 @@
+{
+  "name": "loyalty-wallet-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "google-auth-library": "^9.14.2",
+    "jsonwebtoken": "^9.0.2",
+    "passkit-generator": "^3.2.2",
+    "tarjeta-fidelizacion-wallet": "file:..",
+    "uuid": "^10.0.0",
+    "web-push": "^3.6.7"
+  }
+}
